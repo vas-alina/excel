@@ -23,6 +23,7 @@ export class Formula extends ExcelComponent {
     }
 
     onClick() {
+        console.log('click');
         
     }
 };
