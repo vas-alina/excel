@@ -38,7 +38,7 @@ export function createTable(rowsCount = 15) {
         .join("")
 
     rows.push(createRow("", cols))
-
+    //создание ячейки
     const cells = new Array(colsCount)
             .fill("") 
             .map(createCell) 
